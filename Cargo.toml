@@ -1,7 +1,12 @@
 [package]
-name = "rust_camunda_client"
-version = "1.0.0"
+name = "camunda-client"
+version = "0.1.0"
 authors = ["OpenAPI Generator team and contributors"]
+description = "Rust client for camunda Rest API"
+license = "Apache-2.0"
+homepage = "https://github.com/Dansvidania/rust-camunda-client"
+documentation = "https://github.com/Dansvidania/rust-camunda-client"
+repository = "https://github.com/Dansvidania/rust-camunda-client.git"
 
 [dependencies]
 serde = "^1.0"
