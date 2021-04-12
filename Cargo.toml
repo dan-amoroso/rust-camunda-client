@@ -1,7 +1,7 @@
 [package]
 name = "camunda-client"
-version = "0.1.0"
-authors = ["OpenAPI Generator team and contributors"]
+version = "0.1.1"
+authors = ["Danilo Amoroso", "OpenAPI Generator team and contributors"]
 description = "Rust client for camunda Rest API"
 license = "Apache-2.0"
 homepage = "https://github.com/Dansvidania/rust-camunda-client"
