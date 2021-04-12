@@ -327,7 +327,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/{id}",
+            "{}/process-definition/{id}",
             configuration.base_path,
             id = crate::apis::urlencode(id)
         );
@@ -364,7 +364,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/key/{key}",
+            "{}/process-definition/key/{key}",
             configuration.base_path,
             key = crate::apis::urlencode(key)
         );
@@ -402,7 +402,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/key/{key}/tenant/{tenant_id}",
+            "{}/process-definition/key/{key}/tenant/{tenant_id}",
             configuration.base_path,
             key = crate::apis::urlencode(key),
             tenant_id = crate::apis::urlencode(tenant_id)
@@ -440,7 +440,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/{id}/statistics",
+            "{}/process-definition/{id}/statistics",
             configuration.base_path,
             id = crate::apis::urlencode(id)
         );
@@ -476,7 +476,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/key/{key}/statistics",
+            "{}/process-definition/key/{key}/statistics",
             configuration.base_path,
             key = crate::apis::urlencode(key)
         );
@@ -513,7 +513,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/key/{key}/tenant/{tenant_id}/statistics",
+            "{}/process-definition/key/{key}/tenant/{tenant_id}/statistics",
             configuration.base_path,
             key = crate::apis::urlencode(key),
             tenant_id = crate::apis::urlencode(tenant_id)
@@ -544,7 +544,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/{id}/deployed-start-form",
+            "{}/process-definition/{id}/deployed-start-form",
             configuration.base_path,
             id = crate::apis::urlencode(id)
         );
@@ -565,7 +565,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/key/{key}/deployed-start-form",
+            "{}/process-definition/key/{key}/deployed-start-form",
             configuration.base_path,
             key = crate::apis::urlencode(key)
         );
@@ -590,7 +590,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/key/{key}/tenant/{tenant_id}/deployed-start-form",
+            "{}/process-definition/key/{key}/tenant/{tenant_id}/deployed-start-form",
             configuration.base_path,
             key = crate::apis::urlencode(key),
             tenant_id = crate::apis::urlencode(tenant_id)
@@ -616,7 +616,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/key/{key}/tenant/{tenant_id}",
+            "{}/process-definition/key/{key}/tenant/{tenant_id}",
             configuration.base_path,
             key = crate::apis::urlencode(key),
             tenant_id = crate::apis::urlencode(tenant_id)
@@ -641,7 +641,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/{id}",
+            "{}/process-definition/{id}",
             configuration.base_path,
             id = crate::apis::urlencode(id)
         );
@@ -665,7 +665,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/{id}/xml",
+            "{}/process-definition/{id}/xml",
             configuration.base_path,
             id = crate::apis::urlencode(id)
         );
@@ -689,7 +689,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/key/{key}/xml",
+            "{}/process-definition/key/{key}/xml",
             configuration.base_path,
             key = crate::apis::urlencode(key)
         );
@@ -714,7 +714,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/key/{key}/tenant/{tenant_id}/xml",
+            "{}/process-definition/key/{key}/tenant/{tenant_id}/xml",
             configuration.base_path,
             key = crate::apis::urlencode(key),
             tenant_id = crate::apis::urlencode(tenant_id)
@@ -739,7 +739,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/key/{key}",
+            "{}/process-definition/key/{key}",
             configuration.base_path,
             key = crate::apis::urlencode(key)
         );
@@ -760,7 +760,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/{id}/diagram",
+            "{}/process-definition/{id}/diagram",
             configuration.base_path,
             id = crate::apis::urlencode(id)
         );
@@ -784,7 +784,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/key/{key}/diagram",
+            "{}/process-definition/key/{key}/diagram",
             configuration.base_path,
             key = crate::apis::urlencode(key)
         );
@@ -809,7 +809,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/key/{key}/tenant/{tenant_id}/diagram",
+            "{}/process-definition/key/{key}/tenant/{tenant_id}/diagram",
             configuration.base_path,
             key = crate::apis::urlencode(key),
             tenant_id = crate::apis::urlencode(tenant_id)
@@ -836,7 +836,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let configuration: &configuration::Configuration = self.configuration.borrow();
         let client = &configuration.client;
 
-        let uri_str = format!("{}/process_definition/statistics", configuration.base_path);
+        let uri_str = format!("{}/process-definition/statistics", configuration.base_path);
         let mut req_builder = client.get(uri_str.as_str());
 
         if let Some(ref s) = failed_jobs {
@@ -1063,7 +1063,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let configuration: &configuration::Configuration = self.configuration.borrow();
         let client = &configuration.client;
 
-        let uri_str = format!("{}/process_definition/count", configuration.base_path);
+        let uri_str = format!("{}/process-definition/count", configuration.base_path);
         let mut req_builder = client.get(uri_str.as_str());
 
         if let Some(ref s) = process_definition_id {
@@ -1178,7 +1178,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/{id}/rendered-form",
+            "{}/process-definition/{id}/rendered-form",
             configuration.base_path,
             id = crate::apis::urlencode(id)
         );
@@ -1199,7 +1199,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/key/{key}/rendered-form",
+            "{}/process-definition/key/{key}/rendered-form",
             configuration.base_path,
             key = crate::apis::urlencode(key)
         );
@@ -1224,7 +1224,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/key/{key}/tenant/{tenant_id}/rendered-form",
+            "{}/process-definition/key/{key}/tenant/{tenant_id}/rendered-form",
             configuration.base_path,
             key = crate::apis::urlencode(key),
             tenant_id = crate::apis::urlencode(tenant_id)
@@ -1246,7 +1246,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/{id}/startForm",
+            "{}/process-definition/{id}/startForm",
             configuration.base_path,
             id = crate::apis::urlencode(id)
         );
@@ -1267,7 +1267,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/key/{key}/startForm",
+            "{}/process-definition/key/{key}/startForm",
             configuration.base_path,
             key = crate::apis::urlencode(key)
         );
@@ -1292,7 +1292,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/key/{key}/tenant/{tenant_id}/startForm",
+            "{}/process-definition/key/{key}/tenant/{tenant_id}/startForm",
             configuration.base_path,
             key = crate::apis::urlencode(key),
             tenant_id = crate::apis::urlencode(tenant_id)
@@ -1319,7 +1319,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/{id}/form-variables",
+            "{}/process-definition/{id}/form-variables",
             configuration.base_path,
             id = crate::apis::urlencode(id)
         );
@@ -1351,7 +1351,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/key/{key}/form-variables",
+            "{}/process-definition/key/{key}/form-variables",
             configuration.base_path,
             key = crate::apis::urlencode(key)
         );
@@ -1384,7 +1384,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/key/{key}/tenant/{tenant_id}/form-variables",
+            "{}/process-definition/key/{key}/tenant/{tenant_id}/form-variables",
             configuration.base_path,
             key = crate::apis::urlencode(key),
             tenant_id = crate::apis::urlencode(tenant_id)
@@ -1416,7 +1416,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/{id}/restart",
+            "{}/process-definition/{id}/restart",
             configuration.base_path,
             id = crate::apis::urlencode(id)
         );
@@ -1443,7 +1443,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/{id}/restart-async",
+            "{}/process-definition/{id}/restart-async",
             configuration.base_path,
             id = crate::apis::urlencode(id)
         );
@@ -1469,7 +1469,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/{id}/start",
+            "{}/process-definition/{id}/start",
             configuration.base_path,
             id = crate::apis::urlencode(id)
         );
@@ -1495,7 +1495,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/key/{key}/start",
+            "{}/process-definition/key/{key}/start",
             configuration.base_path,
             key = crate::apis::urlencode(key)
         );
@@ -1522,7 +1522,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/key/{key}/tenant/{tenant_id}/start",
+            "{}/process-definition/key/{key}/tenant/{tenant_id}/start",
             configuration.base_path,
             key = crate::apis::urlencode(key),
             tenant_id = crate::apis::urlencode(tenant_id)
@@ -1549,7 +1549,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/{id}/submit-form",
+            "{}/process-definition/{id}/submit-form",
             configuration.base_path,
             id = crate::apis::urlencode(id)
         );
@@ -1575,7 +1575,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/key/{key}/submit-form",
+            "{}/process-definition/key/{key}/submit-form",
             configuration.base_path,
             key = crate::apis::urlencode(key)
         );
@@ -1602,7 +1602,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/key/{key}/tenant/{tenant_id}/submit-form",
+            "{}/process-definition/key/{key}/tenant/{tenant_id}/submit-form",
             configuration.base_path,
             key = crate::apis::urlencode(key),
             tenant_id = crate::apis::urlencode(tenant_id)
@@ -1629,7 +1629,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/{id}/history-time-to-live",
+            "{}/process-definition/{id}/history-time-to-live",
             configuration.base_path,
             id = crate::apis::urlencode(id)
         );
@@ -1656,7 +1656,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/key/{key}/history-time-to-live",
+            "{}/process-definition/key/{key}/history-time-to-live",
             configuration.base_path,
             key = crate::apis::urlencode(key)
         );
@@ -1684,7 +1684,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/key/{key}/tenant/{tenant_id}/history-time-to-live",
+            "{}/process-definition/key/{key}/tenant/{tenant_id}/history-time-to-live",
             configuration.base_path,
             key = crate::apis::urlencode(key),
             tenant_id = crate::apis::urlencode(tenant_id)
@@ -1712,7 +1712,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let configuration: &configuration::Configuration = self.configuration.borrow();
         let client = &configuration.client;
 
-        let uri_str = format!("{}/process_definition/suspended", configuration.base_path);
+        let uri_str = format!("{}/process-definition/suspended", configuration.base_path);
         let mut req_builder = client.put(uri_str.as_str());
 
         if let Some(ref user_agent) = configuration.user_agent {
@@ -1738,7 +1738,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/{id}/suspended",
+            "{}/process-definition/{id}/suspended",
             configuration.base_path,
             id = crate::apis::urlencode(id)
         );
@@ -1767,7 +1767,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/key/{key}/suspended",
+            "{}/process-definition/key/{key}/suspended",
             configuration.base_path,
             key = crate::apis::urlencode(key)
         );
@@ -1797,7 +1797,7 @@ impl ProcessDefinitionApi for ProcessDefinitionApiClient {
         let client = &configuration.client;
 
         let uri_str = format!(
-            "{}/process_definition/key/{key}/tenant/{tenant_id}/suspended",
+            "{}/process-definition/key/{key}/tenant/{tenant_id}/suspended",
             configuration.base_path,
             key = crate::apis::urlencode(key),
             tenant_id = crate::apis::urlencode(tenant_id)
