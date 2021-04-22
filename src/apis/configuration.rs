@@ -40,7 +40,7 @@ impl Default for Configuration {
         Configuration {
             base_path: "http://localhost:8080/engine-rest".to_owned(),
             user_agent: Some("OpenAPI-Generator/7.13.0/rust".to_owned()),
-            client: reqwest::Client::new(),
+            client: reqwest::Client::builder().timeout(None).build().expect("Failed to create reqwest client"),
             basic_auth: None,
             oauth_access_token: None,
             bearer_access_token: None,
